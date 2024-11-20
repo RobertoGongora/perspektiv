@@ -9,6 +9,8 @@ services:
       - VARNISH_LISTEN_PORT=6081
     volumes:
       - ./varnish:/etc/varnish
+    ports:
+      - "6081"
 
   nginx:
     image: nginx:latest
