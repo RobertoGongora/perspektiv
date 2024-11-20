@@ -2,7 +2,7 @@ version: '3'
 
 services:
   varnish:
-    image: varnishcache/varnish:latest
+    image: varnish:stable
     ports:
       - "80:6081"
     environment:
