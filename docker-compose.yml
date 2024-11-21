@@ -18,3 +18,5 @@ services:
 #      - varnish
     volumes:
       - ./nginx:/etc/nginx
+    ports:
+      - "80"
